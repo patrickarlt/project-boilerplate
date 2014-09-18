@@ -2052,38 +2052,3 @@ mark {
   display: table;
   clear: both;
 }
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px solid gainsboro;
-  text-align: left;
-  margin-bottom: 1.5rem;
-}
-table > thead {
-  background-color: #f3f3f3;
-  border-bottom: 1px solid gainsboro;
-}
-table > tfoot {
-  background-color: #F2F2F2;
-  border-top: 1px solid gainsboro;
-}
-table th, table td {
-  border-left: 1px solid gainsboro;
-  border-right: 1px solid gainsboro;
-  padding: 12px;
-}
-table td {
-  width: 50%;
-}
-table p {
-  margin-bottom: 0;
-}
-table tr {
-  border-bottom: 1px solid gainsboro;
-  text-align: left;
-}
-table tr:last-child {
-  border-bottom: none;
-}
