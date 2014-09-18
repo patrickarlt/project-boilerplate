@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}} | Site</title>
+  {% block head %}
+    <link rel="stylesheet" href="{{relativePath}}assets/css/style.css">
+  {% endblock %}
+</head>
+<body>
+
+  {% block nav %}{% endblock %}
+  {% block content %}{% endblock %}
+  {% block footer %}{% endblock %}
+
+  <!-- Last Modified: {{ stats.mtime }} -->
+  <!-- {{ globals.config.environment }} -->
+  <!-- {{ globals.rootUrl }} -->
+  <!-- {{ relativePath }} -->
+</body>
+</html>
