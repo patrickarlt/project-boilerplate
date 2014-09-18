@@ -1,0 +1,20 @@
+{
+  "name": "project-boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nikolaswise/project-boilerplate",
+  "authors": [
+    "Nikolas Wise <nikolaswise@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typecabinet": "~0.0.2",
+    "viewport-grid": "*"
+  }
+}
