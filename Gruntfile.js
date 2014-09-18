@@ -1,4 +1,4 @@
-var repo = 'https://github.com/patrickarlt/acetate.git';
+var repo = 'https://github.com/nikolaswise/project-boilerplate.git';
 
 module.exports = function(grunt) {
 
